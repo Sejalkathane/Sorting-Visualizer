@@ -1,0 +1,231 @@
+/* h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+   
+    margin-top: 0;
+    width:500px ;
+    background-image: linear-gradient(rgb(254, 159, 245),rgb(255, 255, 255));
+    margin-left: 500px;
+    border-radius: 20px;
+    text-shadow: 3px 2px rgb(255, 0, 217);
+  
+}
+
+.vars{
+    background-color: rgb(252, 219, 255);
+    border-radius: 20px;
+    height: 190px;
+}
+
+.range{
+    float:left;
+    color: #000000;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 2px 2px rgb(246, 145, 253);
+    font-weight: bold;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 183, 250));
+}
+
+.sorts{
+    top: 0;
+    float: right;
+    margin-top: 10px;
+    color: red;
+}
+.gen{
+     margin-left: 1000px;
+     padding: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid rgb(255, 76, 213);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-image:linear-gradient(rgb(255, 255, 255),rgb(255, 183, 250)) ;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgb(246, 145, 253);
+    font-weight:bold;
+
+}
+
+.btn{
+    padding: 5px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid  rgb(255, 76, 213);
+    border-radius: 5px;
+    background-image:linear-gradient(rgb(255, 255, 255),rgb(255, 183, 250)) ;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgb(246, 145, 253);
+    font-weight:bold;
+}
+.btn:hover , .gen:hover
+{
+    box-shadow:inset 3px 3px 5px 5px rgb(255, 255, 255);
+    border: 3px solid  rgb(255, 76, 249);
+
+}
+
+#bars, #delay{
+	vertical-align: middle;
+    cursor: pointer;
+}
+
+
+#container{
+	display: flex;
+	margin: 0 auto;
+	width: intrinsic;           
+  	width: -moz-max-content;   
+ 	width: -webkit-max-content;
+}
+
+#b{
+	display: inline-block;
+	margin-left: 1vw;
+	width: 1vw;
+}
+
+#d{
+	display: inline-block;
+	margin-left: 1vw;
+	width: 1vw;
+}
+
+
+.bar{
+	border: 0.05vw solid black;
+	width:0.6vw;
+	margin:0.1vw;
+	background-color: #fd0081;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+*{
+	margin: 0; */
+    /* color: rgb(25, 251, 0); */
+/* }
+@font-face {
+    font-family: "Pacifico";
+    src: url("Fonts/Pacifico-Regular.woff2") format('woff2');
+} */
+
+#container{
+	display: flex;
+	margin: 0 auto;
+	width: intrinsic;           
+    width: -moz-max-content;   
+    width: -webkit-max-content;
+	height: 60%;
+    margin-top: 2px;
+    /* color: rgb(180, 0, 251); */
+
+}
+
+#b{
+	display: inline-block;
+	margin-left: 1vw;
+	width: 1vw;
+}
+
+#d{
+	display: inline-block;
+	margin-left: 1vw;
+	width: 1vw;
+}
+#bars, #delay{
+	vertical-align: middle;
+}
+
+.header{
+    background-color: rgb(252, 219, 255);
+    border-radius: 20px;
+    height: 190px;
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+   
+    margin-top: 0;
+    width:500px ;
+    background-image: linear-gradient(rgb(254, 159, 245),rgb(255, 255, 255));
+    margin-left: 500px;
+    border-radius: 20px;
+    text-shadow: 3px 2px rgb(255, 0, 217);
+}
+.range{
+    float:left;
+    color: #000000;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 2px 2px rgb(246, 145, 253);
+    font-weight: bold;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 183, 250));
+}
+.slide{
+	margin: 0vw 1vw;
+}
+.bar{
+	border: 0.05vw solid black;
+	width:0.6vw;
+	margin:0.1vw;
+	background-color: #fd0076;
+}
+.sorts{
+    top: 0;
+    float: right;
+    margin-top: 10px;
+    /* color: red; */
+}
+.gen{
+     margin-left: 1000px;
+     padding: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid rgb(255, 76, 213);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-image:linear-gradient(rgb(255, 255, 255),rgb(255, 183, 250)) ;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgb(246, 145, 253);
+    font-weight:bold;
+
+}
+.btn{
+    padding: 5px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid  rgb(255, 76, 213);
+    border-radius: 5px;
+    background-image:linear-gradient(rgb(255, 255, 255),rgb(255, 183, 250)) ;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgb(246, 145, 253);
+    font-weight:bold;
+}
+.btn:hover , .gen:hover
+{
+    box-shadow:inset 3px 3px 5px 5px rgb(255, 255, 255);
+    border: 3px solid  rgb(255, 76, 249);
+
+}
